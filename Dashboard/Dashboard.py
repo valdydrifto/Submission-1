@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 st.title("🚴 Bike Sharing Dashboard")
-st.caption("Analisis Tren Penyewaan Sepeda berdasarkan Data Harian dan Jam")
+st.caption("Analisis Tren Penyewaan Sepeda berdasarkan Data day dan hour")
 
 # ==========================
 # Load Data
@@ -116,3 +116,4 @@ st.markdown("""
 """)
 
 st.success("Analisis ini menunjukkan bahwa tren penyewaan sepeda meningkat tajam dari tahun ke tahun, dengan perbedaan pola antara pengguna rutin dan rekreasi yang dapat dimanfaatkan untuk strategi operasional dan pemasaran.")
+
